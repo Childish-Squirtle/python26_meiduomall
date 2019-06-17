@@ -85,6 +85,33 @@ class SPU(BaseModel):
     def __str__(self):
         return self.name
 
+class SPUSpecification(BaseModel):
+    """商品SPU规格"""
+    spu = models.ForeignKey(SPU, on_delete=models.CASCADE, related_name='specs', verbose_name='商品SPU')
+    name = models.CharField(max_length=20, verbose_name='规格名称')
+
+    class Meta:
+        db_table = 'tb_spu_specification'
+        verbose_name = '商品SPU规格'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '%s: %s' % (self.spu.name, self.name)
+
+class SpecificationOption(BaseModel):
+    """规格选项"""
+    spec = models.ForeignKey(SPUSpecification, related_name='options', on_delete=models.CASCADE, verbose_name='规格')
+    value = models.CharField(max_length=20, verbose_name='选项值')
+
+    class Meta:
+        db_table = 'tb_specification_option'
+        verbose_name = '规格选项'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '%s - %s' % (self.spec, self.value)
+
+
 
 class SKU(BaseModel):
     """商品SKU"""
@@ -111,47 +138,6 @@ class SKU(BaseModel):
         return '%s: %s' % (self.id, self.name)
 
 
-class SKUImage(BaseModel):
-    """SKU图片"""
-    sku = models.ForeignKey(SKU, on_delete=models.CASCADE, verbose_name='sku')
-    image = models.ImageField(verbose_name='图片')
-
-    class Meta:
-        db_table = 'tb_sku_image'
-        verbose_name = 'SKU图片'
-        verbose_name_plural = verbose_name
-
-    def __str__(self):
-        return '%s %s' % (self.sku.name, self.id)
-
-
-class SPUSpecification(BaseModel):
-    """商品SPU规格"""
-    spu = models.ForeignKey(SPU, on_delete=models.CASCADE, related_name='specs', verbose_name='商品SPU')
-    name = models.CharField(max_length=20, verbose_name='规格名称')
-
-    class Meta:
-        db_table = 'tb_spu_specification'
-        verbose_name = '商品SPU规格'
-        verbose_name_plural = verbose_name
-
-    def __str__(self):
-        return '%s: %s' % (self.spu.name, self.name)
-
-
-class SpecificationOption(BaseModel):
-    """规格选项"""
-    spec = models.ForeignKey(SPUSpecification, related_name='options', on_delete=models.CASCADE, verbose_name='规格')
-    value = models.CharField(max_length=20, verbose_name='选项值')
-
-    class Meta:
-        db_table = 'tb_specification_option'
-        verbose_name = '规格选项'
-        verbose_name_plural = verbose_name
-
-    def __str__(self):
-        return '%s - %s' % (self.spec, self.value)
-
 
 class SKUSpecification(BaseModel):
     """SKU具体规格"""
@@ -166,6 +152,22 @@ class SKUSpecification(BaseModel):
 
     def __str__(self):
         return '%s: %s - %s' % (self.sku, self.spec.name, self.option.value)
+
+
+
+class SKUImage(BaseModel):
+    """SKU图片"""
+    sku = models.ForeignKey(SKU, on_delete=models.CASCADE, verbose_name='sku')
+    image = models.ImageField(verbose_name='图片')
+
+    class Meta:
+        db_table = 'tb_sku_image'
+        verbose_name = 'SKU图片'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '%s %s' % (self.sku.name, self.id)
+
 
 class GoodsVisitCount(BaseModel):
     """统计分类商品访问量模型类"""
