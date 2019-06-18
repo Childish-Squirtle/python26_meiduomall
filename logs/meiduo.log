@@ -22793,3 +22793,135 @@ Traceback (most recent call last):
     raise errorclass(errno, errval)
 django.db.utils.ProgrammingError: (1146, "Table 'meiduo_mall_db.tb_goods_channel' doesn't exist")
 ERROR 2019-06-18 08:40:33,291 basehttp 124 "GET / HTTP/1.1" 500 213323
+INFO 2019-06-18 09:19:16,358 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-18 09:19:16,431 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-06-18 09:19:16,433 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-06-18 09:19:16,444 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-06-18 09:19:16,445 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-06-18 09:19:16,447 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-06-18 09:19:16,450 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-06-18 09:19:16,472 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-06-18 09:19:16,492 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-06-18 09:19:16,526 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-06-18 09:19:16,546 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1418
+INFO 2019-06-18 09:19:16,582 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-06-18 09:19:17,250 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-18 09:19:47,410 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-18 09:19:43,804 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-18 09:20:06,242 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-06-18 09:20:06,267 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-06-18 09:20:06,274 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-06-18 09:20:06,333 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-06-18 09:20:06,334 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-06-18 09:20:06,335 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+ERROR 2019-06-18 09:20:07,873 exception 135 Internal Server Error: /qq/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/美多商城后台开发资料/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 21, in get
+    oauthqq = OAuthQQ(
+NameError: name 'OAuthQQ' is not defined
+ERROR 2019-06-18 09:20:07,920 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 500 83994
+ERROR 2019-06-18 09:20:15,895 exception 135 Internal Server Error: /qq/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/美多商城后台开发资料/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 21, in get
+    oauthqq = OAuthQQ(
+NameError: name 'OAuthQQ' is not defined
+ERROR 2019-06-18 09:20:15,932 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 500 83994
+ERROR 2019-06-18 09:20:13,138 exception 135 Internal Server Error: /qq/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/美多商城后台开发资料/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 21, in get
+    oauthqq = OAuthQQ(
+NameError: name 'OAuthQQ' is not defined
+ERROR 2019-06-18 09:20:13,174 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 500 83994
+INFO 2019-06-18 09:21:50,590 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-18 09:21:51,386 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-18 09:21:55,172 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102083
+INFO 2019-06-18 09:21:55,183 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-06-18 09:21:55,217 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1870
+INFO 2019-06-18 09:21:55,233 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2019-06-18 09:21:55,246 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2019-06-18 09:21:55,436 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-18 09:21:55,451 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+INFO 2019-06-18 09:22:02,319 basehttp 124 "GET /carts/ HTTP/1.1" 200 4360
+INFO 2019-06-18 09:22:02,335 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8784
+WARNING 2019-06-18 09:22:03,607 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 404 1679
+WARNING 2019-06-18 09:22:16,224 base 152 Not Found: /carts/user_center_info.html
+WARNING 2019-06-18 09:22:16,227 basehttp 124 "GET /carts/user_center_info.html HTTP/1.1" 404 8331
+INFO 2019-06-18 09:22:22,988 basehttp 124 "GET /register/ HTTP/1.1" 200 4616
+INFO 2019-06-18 09:22:23,017 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2019-06-18 09:22:23,086 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-06-18 09:22:23,089 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-06-18 09:22:23,100 basehttp 124 "GET /image_codes/e565a7a6-a13f-4129-9df1-5f54c657fadc/ HTTP/1.1" 200 3293
+INFO 2019-06-18 09:29:55,100 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+WARNING 2019-06-18 09:29:55,115 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+INFO 2019-06-18 09:43:16,660 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+WARNING 2019-06-18 09:43:16,704 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+WARNING 2019-06-18 09:43:25,641 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+WARNING 2019-06-18 09:43:28,410 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+INFO 2019-06-18 09:59:45,843 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:45,892 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-06-18 09:59:46,023 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:46,054 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:46,059 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:46,074 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:46,082 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:46,089 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:46,095 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-18 09:59:46,110 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-06-18 09:59:46,133 base 152 Not Found: /meiduo_admin/statistical/total_count/
+WARNING 2019-06-18 09:59:46,148 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 404 13021
+WARNING 2019-06-18 09:59:46,168 base 152 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2019-06-18 09:59:46,183 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 13027
+WARNING 2019-06-18 09:59:46,204 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-06-18 09:59:46,207 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-06-18 09:59:46,222 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-06-18 09:59:46,258 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 13033
+WARNING 2019-06-18 09:59:46,224 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 13018
+WARNING 2019-06-18 09:59:46,225 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 13018
+WARNING 2019-06-18 09:59:46,242 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-06-18 09:59:46,272 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-06-18 09:59:46,273 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 13033
+WARNING 2019-06-18 09:59:46,300 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 13018
+WARNING 2019-06-18 09:59:46,301 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-06-18 09:59:46,304 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 13018
+INFO 2019-06-18 10:02:30,319 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-18 10:02:30,421 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 262
+INFO 2019-06-18 10:02:32,194 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-18 10:02:32,203 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-18 10:02:32,207 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-18 10:02:32,212 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-18 10:02:32,226 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-06-18 10:02:32,266 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 38
+WARNING 2019-06-18 10:02:32,297 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 38
+WARNING 2019-06-18 10:02:32,301 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 38
+WARNING 2019-06-18 10:02:32,330 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 38
+INFO 2019-06-18 10:02:32,505 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
