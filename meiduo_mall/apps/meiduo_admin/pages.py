@@ -10,9 +10,9 @@ class MyPage(PageNumberPagination):
     def get_paginated_response(self, data):
         # data就是分页显示的数据内容
         return Response({
-            "counts": self.page.paginator.count,
-            "lists": data,
-            "page": self.page.number,
-            "pages": self.page.paginator.num_pages,
-            "pagesize": self.page_size
+            "counts": self.page.paginator.count,#总数量
+            "lists": data,#用户数据
+            "page": self.page.number,#当前页数
+            "pages": self.page.paginator.num_pages,#总页数
+            "pagesize": self.page_size#页容量
         })

@@ -7,7 +7,7 @@ from users.models import User
 class MeiduoModelBackend(ModelBackend):
     def authenticate(self, request, username=None, password=None, **kwargs):
 
-        # 前台占站点登陆调用的时候 request对象不为空（存在的）
+        # 前台站点登陆调用的时候 request对象不为空（存在的）
         # 后台站点登陆调用的时候，request对象为空
 
         try:
