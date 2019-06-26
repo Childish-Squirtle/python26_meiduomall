@@ -24073,3 +24073,1035 @@ INFO 2019-06-23 10:34:56,783 basehttp 124 "GET /meiduo_admin/skus/1/ HTTP/1.1" 2
 INFO 2019-06-23 10:34:56,927 basehttp 124 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 515
 INFO 2019-06-23 10:35:01,847 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
 INFO 2019-06-23 10:35:01,887 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 10:40:01,736 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:01,740 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 10:40:01,761 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 10:40:01,791 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-23 10:40:03,022 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:03,025 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:03,027 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:03,109 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 10:40:03,145 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 10:40:03,161 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-23 10:40:04,512 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:04,516 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:04,520 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:04,522 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 10:40:04,524 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 10:40:04,544 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 10:40:04,549 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 10:40:04,558 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 10:40:04,571 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-23 10:40:04,580 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-23 10:40:04,579 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 10:40:04,589 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 10:40:04,590 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 10:40:04,590 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 10:40:04,593 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+INFO 2019-06-23 10:40:05,555 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 10:40:05,604 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 10:40:05,612 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-23 11:38:12,769 basehttp 124 "OPTIONS /meiduo_admin/specs/options/1/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:38:12,809 basehttp 124 "GET /meiduo_admin/specs/options/1/ HTTP/1.1" 200 92
+INFO 2019-06-23 11:39:26,248 basehttp 124 "GET /meiduo_admin/specs/options/1/ HTTP/1.1" 200 92
+INFO 2019-06-23 11:43:22,831 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:22,835 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:22,839 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:22,877 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 11:43:22,898 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 11:43:22,908 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-23 11:43:23,591 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:23,623 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 11:43:24,728 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:24,745 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:24,750 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 11:43:24,760 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:24,792 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 11:43:24,808 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 11:43:24,851 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 11:43:24,886 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-23 11:43:27,193 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 11:43:28,432 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 11:43:28,465 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 11:43:28,480 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-23 11:43:31,861 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:31,865 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:31,867 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:31,917 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 11:43:31,970 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 11:43:31,990 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-23 11:43:32,715 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:32,718 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:32,723 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:32,726 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:32,743 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 11:43:32,755 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 11:43:32,757 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 11:43:32,770 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 11:43:32,773 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-23 11:43:32,784 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 11:43:32,785 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 11:43:32,791 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-23 11:43:32,792 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 11:43:32,802 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 11:43:32,803 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+INFO 2019-06-23 11:43:38,999 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 11:43:42,871 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:42,874 basehttp 124 "OPTIONS /meiduo_admin/goods/channel/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 11:43:42,926 basehttp 124 "GET /meiduo_admin/goods/brands/simple/ HTTP/1.1" 200 62
+INFO 2019-06-23 11:43:42,938 basehttp 124 "GET /meiduo_admin/goods/channel/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 11:43:50,176 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 19:25:42,130 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:42,137 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+WARNING 2019-06-23 19:25:42,153 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:25:42,165 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 19:25:42,168 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:42,171 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 401 35
+INFO 2019-06-23 19:25:43,703 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:43,715 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:43,715 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 19:25:43,733 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:43,741 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:43,744 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:44,821 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:44,833 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:44,841 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:46,321 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:46,332 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:46,336 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:25:56,626 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=2&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 19:25:56,633 basehttp 124 "GET /meiduo_admin/specs/options/?page=2&pagesize=10 HTTP/1.1" 401 35
+INFO 2019-06-23 19:25:57,238 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=3&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 19:25:57,246 basehttp 124 "GET /meiduo_admin/specs/options/?page=3&pagesize=10 HTTP/1.1" 401 35
+INFO 2019-06-23 19:25:58,734 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:58,745 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:58,757 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:58,764 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:58,772 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:58,776 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:58,782 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:25:58,786 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-06-23 19:25:58,792 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:58,797 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:58,806 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:58,821 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:58,829 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:58,835 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:58,842 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:25:58,847 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:26:00,533 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:26:00,597 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-06-23 19:26:00,692 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:26:00,724 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:26:00,729 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:26:00,762 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:26:00,773 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-06-23 19:26:00,802 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:26:00,803 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:26:00,849 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-06-23 19:26:05,567 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-23 19:26:05,627 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 416
+INFO 2019-06-23 19:26:09,633 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+WARNING 2019-06-23 19:26:09,638 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:26:09,641 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+WARNING 2019-06-23 19:26:09,644 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:26:09,645 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-06-23 19:26:09,669 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:26:09,695 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:26:09,747 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-23 19:26:33,895 basehttp 124 "OPTIONS /meiduo_admin/skus/ HTTP/1.1" 200 0
+WARNING 2019-06-23 19:26:33,912 basehttp 124 "POST /meiduo_admin/skus/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:26:36,133 basehttp 124 "POST /meiduo_admin/skus/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:27:45,130 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-23 19:27:45,173 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 19:27:49,449 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:27:49,450 basehttp 124 "OPTIONS /meiduo_admin/goods/channel/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:27:49,508 basehttp 124 "GET /meiduo_admin/goods/brands/simple/ HTTP/1.1" 200 62
+INFO 2019-06-23 19:27:49,533 basehttp 124 "GET /meiduo_admin/goods/channel/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:28:00,965 basehttp 124 "OPTIONS /meiduo_admin/goods/channel/categories/1/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:28:00,990 basehttp 124 "GET /meiduo_admin/goods/channel/categories/1/ HTTP/1.1" 200 65
+INFO 2019-06-23 19:28:05,020 basehttp 124 "OPTIONS /meiduo_admin/goods/channel/categories/38/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:28:05,060 basehttp 124 "GET /meiduo_admin/goods/channel/categories/38/ HTTP/1.1" 200 121
+WARNING 2019-06-23 19:28:14,822 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:28:14,844 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:28:14,865 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+WARNING 2019-06-23 19:28:16,874 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-23 19:28:16,894 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+INFO 2019-06-23 19:28:16,941 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-23 19:28:24,981 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:28:24,984 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:28:24,987 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:28:24,995 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:28:24,997 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 19:28:25,033 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 19:28:25,049 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-23 19:28:25,049 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-23 19:28:25,062 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 19:28:25,063 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 19:28:25,066 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 19:28:25,066 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 19:28:25,080 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 19:28:25,080 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 19:28:25,081 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 19:34:17,876 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 19:34:17,880 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 19:34:17,901 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 19:34:17,897 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-23 19:34:17,906 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 19:34:17,910 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-23 19:34:17,952 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 19:34:17,953 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 19:34:17,969 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 19:34:17,973 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+INFO 2019-06-23 19:34:22,540 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:34:22,552 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:34:22,563 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:34:22,598 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:34:21,447 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:34:21,458 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-06-23 19:34:21,458 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-06-23 19:34:21,467 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-23 19:34:22,759 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 416
+INFO 2019-06-23 19:34:26,761 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:34:26,795 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:34:26,813 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:34:26,842 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:34:26,895 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-23 19:34:27,647 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 19:34:28,527 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:34:28,561 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:34:28,569 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-23 19:34:29,325 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 19:34:29,374 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 19:34:29,391 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+WARNING 2019-06-23 19:34:30,194 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 19:34:30,206 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 19:34:30,223 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 19:34:30,224 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 19:34:30,233 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-23 19:34:30,235 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 19:34:30,243 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-23 19:34:30,246 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 19:34:30,255 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 19:34:30,256 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-23 19:34:31,117 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-23 19:34:31,118 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-23 19:34:31,120 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-23 19:34:31,126 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+INFO 2019-06-23 19:34:31,132 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-23 19:34:31,143 base 152 Not Found: /meiduo_admin/goods/brands/
+WARNING 2019-06-23 19:34:31,143 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 12672
+INFO 2019-06-23 19:34:31,761 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 19:34:31,810 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-23 19:34:31,819 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-23 19:34:32,407 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 19:34:33,311 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:34:33,348 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:34:33,371 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:34:33,375 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:34:33,418 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-23 19:34:50,954 basehttp 124 "OPTIONS /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:34:51,006 basehttp 124 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 515
+INFO 2019-06-23 19:34:58,054 basehttp 124 "POST /meiduo_admin/skus/ HTTP/1.1" 201 356
+INFO 2019-06-23 19:34:58,088 basehttp 124 "OPTIONS /meiduo_admin/goods//specs/ HTTP/1.1" 200 0
+WARNING 2019-06-23 19:34:58,116 base 152 Not Found: /meiduo_admin/goods//specs/
+WARNING 2019-06-23 19:34:58,122 basehttp 124 "GET /meiduo_admin/goods//specs/ HTTP/1.1" 404 12649
+INFO 2019-06-23 19:35:01,283 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=2&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-23 19:35:01,398 basehttp 124 "GET /meiduo_admin/skus/?page=2&pagesize=10&keyword= HTTP/1.1" 200 4387
+INFO 2019-06-23 19:35:04,629 basehttp 124 "OPTIONS /meiduo_admin/skus/17/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:35:04,681 basehttp 124 "DELETE /meiduo_admin/skus/17/ HTTP/1.1" 204 0
+INFO 2019-06-23 19:35:04,807 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-23 19:35:36,865 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 19:35:41,296 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:35:41,312 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:35:41,382 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-23 19:35:41,391 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:35:41,394 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:37:29,784 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:37:29,788 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:37:29,797 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:37:29,799 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-23 19:37:29,801 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-23 19:37:29,888 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:37:29,899 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:37:29,974 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-23 19:37:29,977 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:37:30,084 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-23 19:37:41,157 basehttp 124 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 515
+INFO 2019-06-23 19:37:46,112 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-23 19:37:46,147 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-23 19:37:47,568 basehttp 124 "GET /meiduo_admin/goods/brands/simple/ HTTP/1.1" 200 62
+INFO 2019-06-23 19:37:47,580 basehttp 124 "GET /meiduo_admin/goods/channel/categories/ HTTP/1.1" 200 975
+INFO 2019-06-23 19:37:56,541 basehttp 124 "GET /meiduo_admin/goods/channel/categories/1/ HTTP/1.1" 200 65
+INFO 2019-06-23 19:38:00,097 basehttp 124 "GET /meiduo_admin/goods/channel/categories/38/ HTTP/1.1" 200 121
+INFO 2019-06-24 19:26:16,208 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-24 19:26:17,526 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-06-24 19:26:17,590 base 152 Not Found: /favicon.ico
+WARNING 2019-06-24 19:26:17,591 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8283
+WARNING 2019-06-24 19:26:21,589 base 152 Not Found: /user_center_order.html
+WARNING 2019-06-24 19:26:21,590 basehttp 124 "GET /user_center_order.html HTTP/1.1" 404 8316
+INFO 2019-06-24 19:26:25,134 basehttp 124 "GET /info/ HTTP/1.1" 200 5724
+INFO 2019-06-24 19:26:25,152 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-06-24 19:26:25,169 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+INFO 2019-06-24 19:26:25,262 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 254
+INFO 2019-06-24 19:26:26,403 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 4189
+INFO 2019-06-24 19:26:26,431 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 304 0
+WARNING 2019-06-24 19:26:27,309 base 152 Not Found: /orders/info/1/user_center_site.html
+WARNING 2019-06-24 19:26:27,310 basehttp 124 "GET /orders/info/1/user_center_site.html HTTP/1.1" 404 8355
+INFO 2019-06-24 19:26:41,300 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,340 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-06-24 19:26:41,449 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,458 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,465 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,475 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,484 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,489 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,494 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,518 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:41,642 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-24 19:26:41,653 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-06-24 19:26:41,665 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-24 19:26:41,679 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-06-24 19:26:41,698 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-24 19:26:41,701 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-24 19:26:41,708 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-06-24 19:26:41,757 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-06-24 19:26:44,224 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:44,274 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 416
+INFO 2019-06-24 19:26:46,075 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:46,080 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:46,083 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:46,086 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:46,091 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-06-24 19:26:46,117 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-24 19:26:46,120 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-24 19:26:46,126 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-24 19:26:46,152 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+INFO 2019-06-24 19:26:46,206 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-24 19:26:47,232 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 19:26:47,269 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+WARNING 2019-06-24 19:26:58,029 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-24 19:26:58,032 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-24 19:26:58,048 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-24 19:26:58,073 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-24 19:26:59,366 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+WARNING 2019-06-24 19:27:00,047 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-24 19:27:00,077 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-24 19:27:00,121 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-24 19:29:04,646 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 19:29:04,707 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-24 19:29:04,708 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 19:29:06,594 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 19:29:06,602 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-24 19:29:06,641 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 19:29:06,656 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-24 19:29:06,685 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-24 19:29:07,465 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-24 19:29:08,265 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 19:29:08,303 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-24 19:29:08,310 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 19:29:09,242 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:09,244 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:09,250 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:09,306 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-24 19:29:09,342 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-24 19:29:09,366 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-24 19:29:10,460 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:10,462 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:10,465 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:10,472 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:10,479 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-24 19:29:10,496 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-24 19:29:10,509 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:10,515 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:10,524 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-24 19:29:10,530 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-24 19:29:10,573 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:10,574 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-24 19:29:10,567 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-24 19:29:10,576 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-24 19:29:10,580 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:11,400 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:11,403 base 152 Not Found: /meiduo_admin/goods/channel_types/
+INFO 2019-06-24 19:29:11,405 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-24 19:29:11,409 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:11,410 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-24 19:29:11,419 base 152 Not Found: /meiduo_admin/goods/brands/
+WARNING 2019-06-24 19:29:11,422 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 12672
+WARNING 2019-06-24 19:29:12,585 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-24 19:29:12,588 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:12,590 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:12,604 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-24 19:29:12,609 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-24 19:29:12,613 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-24 19:29:12,614 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:12,618 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-24 19:29:12,627 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:12,628 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+INFO 2019-06-24 19:29:13,695 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:13,697 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 19:29:13,699 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-24 19:29:13,716 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-24 19:29:13,716 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 12646
+WARNING 2019-06-24 19:29:13,727 base 152 Not Found: /meiduo_admin/skus/images/
+WARNING 2019-06-24 19:29:13,734 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 12669
+WARNING 2019-06-24 19:29:13,743 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-24 19:29:13,744 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 12646
+WARNING 2019-06-24 19:29:14,247 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-24 19:29:14,258 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:14,265 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:14,275 base 152 Not Found: /meiduo_admin/goods/brands/
+WARNING 2019-06-24 19:29:14,276 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 12672
+WARNING 2019-06-24 19:29:14,278 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-24 19:29:14,733 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-24 19:29:14,741 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:14,753 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:14,759 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-06-24 19:29:14,766 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+WARNING 2019-06-24 19:29:14,769 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 12678
+WARNING 2019-06-24 19:29:14,775 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-06-24 19:29:14,782 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 12670
+WARNING 2019-06-24 19:29:14,786 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-06-24 19:29:14,788 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 12661
+INFO 2019-06-24 20:17:32,501 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:32,508 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:32,510 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:32,513 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:32,517 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:32,581 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-24 20:17:32,600 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 20:17:32,618 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-24 20:17:32,668 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 20:17:32,697 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-24 20:17:33,387 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:33,417 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-24 20:17:34,123 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:34,140 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 20:17:34,155 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-24 20:17:34,172 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-24 20:17:36,094 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:36,097 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:36,099 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:36,155 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-24 20:17:36,204 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-24 20:17:36,212 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-24 20:17:37,629 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:37,633 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:37,636 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:37,645 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:37,667 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:37,678 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-24 20:17:37,705 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-24 20:17:37,751 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-24 20:17:37,784 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-24 20:17:37,793 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-24 20:17:51,076 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:51,103 basehttp 124 "POST /meiduo_admin/goods/channels/ HTTP/1.1" 201 104
+INFO 2019-06-24 20:17:51,128 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:51,204 basehttp 124 "GET /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-24 20:17:59,283 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=4&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 20:17:59,318 basehttp 124 "GET /meiduo_admin/goods/channels/?page=4&pagesize=10 HTTP/1.1" 200 1045
+INFO 2019-06-24 20:18:04,087 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/38/ HTTP/1.1" 200 0
+INFO 2019-06-24 20:18:04,117 basehttp 124 "GET /meiduo_admin/goods/channels/38/ HTTP/1.1" 200 104
+INFO 2019-06-24 20:18:08,087 basehttp 124 "PUT /meiduo_admin/goods/channels/38/ HTTP/1.1" 200 104
+INFO 2019-06-24 20:18:08,171 basehttp 124 "GET /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-24 20:18:10,960 basehttp 124 "GET /meiduo_admin/goods/channels/?page=4&pagesize=10 HTTP/1.1" 200 1045
+INFO 2019-06-24 20:18:14,368 basehttp 124 "DELETE /meiduo_admin/goods/channels/38/ HTTP/1.1" 204 0
+INFO 2019-06-24 20:18:14,455 basehttp 124 "GET /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-24 20:18:17,174 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-24 20:18:17,183 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-24 20:18:17,196 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+WARNING 2019-06-24 20:18:17,210 base 152 Not Found: /meiduo_admin/goods/brands/
+WARNING 2019-06-24 20:18:17,213 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 13409
+INFO 2019-06-25 17:38:02,986 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-25 17:38:02,989 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-25 17:38:02,994 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-25 17:38:02,997 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-25 17:38:03,001 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-25 17:38:03,071 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 17:38:03,102 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 17:38:03,117 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 17:38:03,140 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 17:38:03,150 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-25 17:40:47,731 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/ HTTP/1.1" 200 0
+INFO 2019-06-25 17:40:47,760 basehttp 124 "POST /meiduo_admin/goods/channels/ HTTP/1.1" 201 104
+INFO 2019-06-25 17:40:47,801 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-25 17:40:47,907 basehttp 124 "GET /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-25 17:40:50,801 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=4&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-25 17:40:50,850 basehttp 124 "GET /meiduo_admin/goods/channels/?page=4&pagesize=10 HTTP/1.1" 200 1045
+INFO 2019-06-25 17:40:52,603 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/39/ HTTP/1.1" 200 0
+INFO 2019-06-25 17:40:52,677 basehttp 124 "GET /meiduo_admin/goods/channels/39/ HTTP/1.1" 200 104
+INFO 2019-06-25 17:40:55,869 basehttp 124 "PUT /meiduo_admin/goods/channels/39/ HTTP/1.1" 200 104
+INFO 2019-06-25 17:40:55,969 basehttp 124 "GET /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-25 17:40:58,544 basehttp 124 "GET /meiduo_admin/goods/channels/?page=4&pagesize=10 HTTP/1.1" 200 1045
+INFO 2019-06-25 17:41:01,679 basehttp 124 "DELETE /meiduo_admin/goods/channels/39/ HTTP/1.1" 204 0
+INFO 2019-06-25 17:41:01,765 basehttp 124 "GET /meiduo_admin/goods/channels/?pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-25 17:41:04,138 basehttp 124 "GET /meiduo_admin/goods/channels/?page=4&pagesize=10 HTTP/1.1" 200 940
+INFO 2019-06-25 17:45:34,314 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-25 17:45:35,090 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 17:45:41,985 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102083
+INFO 2019-06-25 17:45:42,193 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 17:45:42,224 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+INFO 2019-06-25 17:45:54,240 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102083
+INFO 2019-06-25 17:45:54,440 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 17:45:54,480 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+INFO 2019-06-25 20:45:29,659 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-25 20:45:30,298 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 20:45:32,773 basehttp 124 "GET /carts/ HTTP/1.1" 200 4360
+INFO 2019-06-25 20:45:32,803 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8784
+WARNING 2019-06-25 20:45:34,632 base 152 Not Found: /carts/user_center_info.html
+WARNING 2019-06-25 20:45:34,633 basehttp 124 "GET /carts/user_center_info.html HTTP/1.1" 404 8331
+WARNING 2019-06-25 20:45:38,010 base 152 Not Found: /carts/user_center_info.html
+WARNING 2019-06-25 20:45:38,011 basehttp 124 "GET /carts/user_center_info.html HTTP/1.1" 404 8331
+WARNING 2019-06-25 20:45:41,424 base 152 Not Found: /carts/cart.html
+WARNING 2019-06-25 20:45:41,425 basehttp 124 "GET /carts/cart.html HTTP/1.1" 404 8295
+WARNING 2019-06-25 20:45:54,047 base 152 Not Found: /carts/index.html
+WARNING 2019-06-25 20:45:54,054 basehttp 124 "GET /carts/index.html HTTP/1.1" 404 8298
+INFO 2019-06-25 20:45:59,610 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-25 20:45:59,953 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 20:46:05,660 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102083
+INFO 2019-06-25 20:46:05,855 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 20:46:05,881 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+WARNING 2019-06-25 20:48:49,744 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-06-25 20:49:55,106 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102083
+INFO 2019-06-25 20:49:55,131 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-06-25 20:49:55,142 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-06-25 20:49:55,147 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-06-25 20:49:55,150 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-06-25 20:49:55,157 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-06-25 20:49:55,164 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-06-25 20:49:55,167 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-06-25 20:49:55,170 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-06-25 20:49:55,171 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-06-25 20:49:55,179 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1870
+INFO 2019-06-25 20:49:55,205 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2019-06-25 20:49:55,287 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-06-25 20:49:55,321 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2019-06-25 20:49:55,458 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-06-25 20:49:55,611 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 20:49:55,632 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+WARNING 2019-06-25 20:49:55,703 base 152 Not Found: /favicon.ico
+WARNING 2019-06-25 20:49:55,704 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8283
+INFO 2019-06-25 20:50:01,964 basehttp 124 "GET /detail/6/ HTTP/1.1" 200 105515
+WARNING 2019-06-25 20:50:02,332 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-06-25 20:50:02,402 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+INFO 2019-06-25 20:50:02,423 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-06-25 20:50:02,446 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-06-25 20:50:02,460 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-25 20:50:02,476 basehttp 124 "GET /comment/6/ HTTP/1.1" 200 55
+WARNING 2019-06-25 20:50:54,097 basehttp 124 "GET /static/cart.html HTTP/1.1" 404 1640
+INFO 2019-06-25 20:54:41,509 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:54:41,512 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:54:41,517 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 20:54:41,533 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:41,536 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:41,561 base 152 Not Found: /meiduo_admin/goods/brands/
+WARNING 2019-06-25 20:54:41,562 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 13409
+WARNING 2019-06-25 20:54:42,473 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:42,478 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:54:42,482 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 20:54:42,488 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:42,499 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:42,505 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 401 35
+INFO 2019-06-25 20:54:44,461 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:54:44,464 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:54:44,467 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 20:54:44,484 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:44,492 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:44,503 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:54:45,304 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:54:45,309 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:54:45,312 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 20:54:45,324 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:45,327 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:45,334 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:54:45,942 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 20:54:45,967 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 401 35
+INFO 2019-06-25 20:54:46,554 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+WARNING 2019-06-25 20:54:46,561 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:54:46,578 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-25 20:54:46,579 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+WARNING 2019-06-25 20:54:46,599 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:46,602 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:46,608 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:54:46,615 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:05,051 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:05,065 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:05,076 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:05,091 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:05,106 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:09,724 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:10,559 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:10,563 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:10,567 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:11,432 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:11,437 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:11,442 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:12,000 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:12,009 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:12,027 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:12,040 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:12,041 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:55:12,688 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-06-25 20:55:12,703 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 401 35
+INFO 2019-06-25 20:55:13,446 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:13,448 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:13,469 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:13,477 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:13,484 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:13,500 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:13,502 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:13,502 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+WARNING 2019-06-25 20:55:13,501 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:13,528 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:13,540 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:13,553 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:13,556 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:13,559 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:13,572 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:13,579 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:55:14,889 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-06-25 20:55:14,931 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-06-25 20:55:15,064 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-25 20:55:15,068 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-06-25 20:55:15,068 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-06-25 20:55:15,071 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-25 20:55:15,116 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-25 20:55:15,130 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-25 20:55:15,152 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-06-25 20:55:15,199 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-06-25 20:55:18,762 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 416
+WARNING 2019-06-25 20:55:21,493 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:21,496 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:21,517 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:21,522 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:55:21,579 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-25 20:55:22,476 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+WARNING 2019-06-25 20:55:23,879 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:23,894 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:55:23,921 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+WARNING 2019-06-25 20:55:24,593 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:24,610 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:55:24,649 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+WARNING 2019-06-25 20:55:26,077 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:26,084 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:26,123 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:26,128 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+INFO 2019-06-25 20:55:26,159 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1293
+WARNING 2019-06-25 20:55:32,195 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:32,199 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2019-06-25 20:55:32,212 base 152 Not Found: /meiduo_admin/goods/brands/
+WARNING 2019-06-25 20:55:32,215 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 13409
+INFO 2019-06-25 20:59:52,724 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 20:59:52,748 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 335
+INFO 2019-06-25 20:59:52,749 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 21:04:43,204 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:04:43,207 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:04:43,210 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-25 21:04:43,326 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 21:04:43,345 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 335
+INFO 2019-06-25 21:04:43,352 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:05:03,391 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/ HTTP/1.1" 200 0
+ERROR 2019-06-25 21:05:03,417 exception 135 Internal Server Error: /meiduo_admin/goods/brands/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 26, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/serializers.py", line 214, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/美多商城后台开发资料/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brand_serializers.py", line 30, in create
+    result = conn.append_by_buffer(content)
+TypeError: append_by_buffer() missing 1 required positional argument: 'remote_fileid'
+ERROR 2019-06-25 21:05:03,469 basehttp 124 "POST /meiduo_admin/goods/brands/ HTTP/1.1" 500 20288
+ERROR 2019-06-25 21:05:05,651 exception 135 Internal Server Error: /meiduo_admin/goods/brands/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 26, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/serializers.py", line 214, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/美多商城后台开发资料/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brand_serializers.py", line 30, in create
+    result = conn.append_by_buffer(content)
+TypeError: append_by_buffer() missing 1 required positional argument: 'remote_fileid'
+ERROR 2019-06-25 21:05:05,681 basehttp 124 "POST /meiduo_admin/goods/brands/ HTTP/1.1" 500 20288
+ERROR 2019-06-25 21:05:08,659 exception 135 Internal Server Error: /meiduo_admin/goods/brands/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 26, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/serializers.py", line 214, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/美多商城后台开发资料/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brand_serializers.py", line 30, in create
+    result = conn.append_by_buffer(content)
+TypeError: append_by_buffer() missing 1 required positional argument: 'remote_fileid'
+ERROR 2019-06-25 21:05:08,689 basehttp 124 "POST /meiduo_admin/goods/brands/ HTTP/1.1" 500 20288
+ERROR 2019-06-25 21:05:26,323 exception 135 Internal Server Error: /meiduo_admin/goods/brands/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/mixins.py", line 26, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/rest_framework/serializers.py", line 214, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/美多商城后台开发资料/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brand_serializers.py", line 30, in create
+    result = conn.append_by_buffer(content)
+TypeError: append_by_buffer() missing 1 required positional argument: 'remote_fileid'
+ERROR 2019-06-25 21:05:26,423 basehttp 124 "POST /meiduo_admin/goods/brands/ HTTP/1.1" 500 20288
+INFO 2019-06-25 21:09:29,961 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:09:29,967 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:09:29,970 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 21:09:30,002 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:09:30,013 base 152 Not Found: /meiduo_admin/skus/images/
+WARNING 2019-06-25 21:09:30,016 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+WARNING 2019-06-25 21:09:30,020 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 13776
+WARNING 2019-06-25 21:09:30,028 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:09:30,029 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+INFO 2019-06-25 21:09:32,706 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-06-25 21:09:32,745 base 152 Not Found: /meiduo_admin/orders/
+WARNING 2019-06-25 21:09:32,748 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 13774
+INFO 2019-06-25 21:09:35,131 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:09:35,141 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:09:35,153 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 0
+WARNING 2019-06-25 21:09:35,181 base 152 Not Found: /meiduo_admin/permission/perms/
+WARNING 2019-06-25 21:09:35,186 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 404 13807
+WARNING 2019-06-25 21:09:35,186 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-06-25 21:09:35,189 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 13792
+WARNING 2019-06-25 21:09:35,207 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-06-25 21:09:35,208 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 13792
+INFO 2019-06-25 21:09:35,738 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:09:35,750 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:09:35,760 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 21:09:35,783 base 152 Not Found: /meiduo_admin/permission/simple/
+WARNING 2019-06-25 21:09:35,793 base 152 Not Found: /meiduo_admin/permission/groups/
+WARNING 2019-06-25 21:09:35,796 basehttp 124 "GET /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 404 13794
+WARNING 2019-06-25 21:09:35,805 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 13771
+WARNING 2019-06-25 21:09:35,825 base 152 Not Found: /meiduo_admin/permission/simple/
+WARNING 2019-06-25 21:09:35,825 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 13771
+WARNING 2019-06-25 21:09:36,795 base 152 Not Found: /meiduo_admin/orders/
+WARNING 2019-06-25 21:09:36,796 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 13774
+WARNING 2019-06-25 21:09:38,368 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:09:38,385 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+WARNING 2019-06-25 21:09:38,406 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:09:38,407 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+WARNING 2019-06-25 21:09:38,412 base 152 Not Found: /meiduo_admin/skus/images/
+WARNING 2019-06-25 21:09:38,412 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 13776
+INFO 2019-06-25 21:09:39,015 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 21:09:39,033 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 335
+INFO 2019-06-25 21:09:39,045 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:09:39,565 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-25 21:09:39,582 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 21:09:39,605 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:09:39,624 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 21:09:39,671 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:09:39,683 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1293
+WARNING 2019-06-25 21:09:40,483 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:09:40,486 base 152 Not Found: /meiduo_admin/skus/images/
+WARNING 2019-06-25 21:09:40,487 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 13776
+WARNING 2019-06-25 21:09:40,490 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+WARNING 2019-06-25 21:09:40,504 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:09:40,505 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+INFO 2019-06-25 21:41:42,189 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:42,198 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:42,203 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-25 21:41:42,300 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:41:42,310 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+WARNING 2019-06-25 21:41:42,339 base 152 Not Found: /meiduo_admin/skus/images/
+WARNING 2019-06-25 21:41:42,341 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 13776
+WARNING 2019-06-25 21:41:42,358 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-25 21:41:42,359 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+INFO 2019-06-25 21:41:43,359 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:43,362 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:43,365 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:43,367 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:43,377 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:43,425 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-25 21:41:43,429 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:41:43,512 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-25 21:41:43,541 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:41:43,577 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-25 21:41:45,929 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:45,931 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:45,934 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:45,996 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 21:41:46,019 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:41:46,022 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 335
+INFO 2019-06-25 21:41:56,281 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:56,331 basehttp 124 "POST /meiduo_admin/goods/brands/ HTTP/1.1" 201 129
+INFO 2019-06-25 21:41:56,360 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-25 21:41:56,416 basehttp 124 "GET /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-25 21:43:47,476 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-25 21:43:47,478 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-25 21:43:47,481 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-25 21:44:29,396 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/3/ HTTP/1.1" 200 0
+INFO 2019-06-25 21:44:29,449 basehttp 124 "DELETE /meiduo_admin/goods/brands/3/ HTTP/1.1" 204 0
+INFO 2019-06-25 21:44:29,478 basehttp 124 "GET /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 335
+INFO 2019-06-26 08:51:01,253 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:01,339 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 416
+INFO 2019-06-26 08:51:03,002 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,006 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,010 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,012 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,015 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,017 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,021 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,023 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:03,102 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-06-26 08:51:03,131 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-26 08:51:03,136 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-06-26 08:51:03,191 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-26 08:51:03,202 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-06-26 08:51:03,219 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-26 08:51:03,245 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-26 08:51:03,293 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-06-26 08:51:12,354 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 416
+INFO 2019-06-26 08:51:14,576 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:14,579 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:14,581 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:14,585 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:14,598 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:14,661 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 08:51:14,665 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-26 08:51:14,696 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 08:51:14,710 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-26 08:51:14,787 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-06-26 08:51:15,521 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:15,616 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 10922
+INFO 2019-06-26 08:51:16,369 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:16,386 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-26 08:51:16,405 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-06-26 08:51:16,421 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 538
+INFO 2019-06-26 08:51:17,203 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:17,208 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:17,219 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:17,322 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-26 08:51:17,374 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 485
+INFO 2019-06-26 08:51:17,377 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 951
+INFO 2019-06-26 08:51:18,605 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:18,610 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:18,613 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:18,623 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:18,632 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:18,674 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 08:51:18,697 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 08:51:18,724 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 08:51:18,751 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 08:51:18,789 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-26 08:51:20,285 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 08:51:20,304 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:20,343 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 08:51:20,360 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 335
+INFO 2019-06-26 08:51:21,777 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:21,784 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 08:51:21,786 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+WARNING 2019-06-26 08:51:21,862 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-26 08:51:21,877 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+WARNING 2019-06-26 08:51:21,923 base 152 Not Found: /meiduo_admin/skus/images/
+WARNING 2019-06-26 08:51:21,933 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 13776
+WARNING 2019-06-26 08:51:21,953 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-26 08:51:21,955 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+INFO 2019-06-26 08:52:43,665 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-06-26 08:52:44,473 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-06-26 08:52:49,713 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102083
+INFO 2019-06-26 08:52:50,043 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+INFO 2019-06-26 08:52:50,054 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-06-26 08:53:21,411 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-06-26 08:53:56,633 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 08:53:56,645 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 08:53:56,659 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 335
+INFO 2019-06-26 08:54:06,556 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/ HTTP/1.1" 200 0
+INFO 2019-06-26 08:54:06,596 basehttp 124 "POST /meiduo_admin/goods/brands/ HTTP/1.1" 201 129
+INFO 2019-06-26 08:54:06,636 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 08:54:06,674 basehttp 124 "GET /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 08:54:20,668 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 08:54:20,671 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 08:54:20,709 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:01:25,970 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:01:25,976 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:01:26,002 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 09:01:26,305 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:01:26,322 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:01:26,327 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:01:38,234 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:01:38,367 basehttp 124 "GET /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 129
+INFO 2019-06-26 09:01:46,136 basehttp 124 "PUT /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 129
+INFO 2019-06-26 09:01:46,208 basehttp 124 "GET /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:06:52,483 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:06:52,498 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:06:52,508 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:07:16,260 basehttp 124 "GET /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 129
+INFO 2019-06-26 09:07:22,655 basehttp 124 "PUT /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 129
+INFO 2019-06-26 09:07:22,690 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 09:07:22,736 basehttp 124 "GET /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:07:41,379 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:07:41,383 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:07:41,385 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-06-26 09:07:41,421 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-26 09:07:41,430 base 152 Not Found: /meiduo_admin/skus/images/
+WARNING 2019-06-26 09:07:41,431 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 13776
+WARNING 2019-06-26 09:07:41,434 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+WARNING 2019-06-26 09:07:41,449 base 152 Not Found: /meiduo_admin/skus/simple/
+WARNING 2019-06-26 09:07:41,449 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 13753
+INFO 2019-06-26 09:17:38,967 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:17:38,970 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:17:38,972 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 09:17:39,433 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:17:39,439 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:17:39,465 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:20:58,733 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:20:58,735 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:20:58,758 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:22:11,618 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:22:11,627 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 09:22:11,648 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:22:11,663 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:22:11,695 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:22:11,734 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-26 09:22:12,544 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:22:12,545 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:22:12,553 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:24:04,094 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,147 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-06-26 09:24:04,263 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,275 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,298 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,306 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,318 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,333 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,338 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,341 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:04,375 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-06-26 09:24:04,386 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-06-26 09:24:04,407 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-26 09:24:04,420 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-26 09:24:04,461 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-06-26 09:24:04,470 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-06-26 09:24:04,504 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-06-26 09:24:04,536 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-06-26 09:24:07,394 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:07,400 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:07,405 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:07,408 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:07,427 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:07,445 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:24:07,490 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:24:07,494 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:24:07,536 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:24:07,542 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1293
+INFO 2019-06-26 09:24:08,328 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 09:24:08,340 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 09:24:08,374 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 09:24:08,377 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 09:31:04,169 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 0
+INFO 2019-06-26 09:31:04,222 basehttp 124 "GET /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 129
+INFO 2019-06-26 09:31:11,677 basehttp 124 "PUT /meiduo_admin/goods/brands/4/ HTTP/1.1" 200 129
+INFO 2019-06-26 09:31:11,703 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 09:31:11,755 basehttp 124 "GET /meiduo_admin/goods/brands/?pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 10:55:16,976 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:16,980 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:16,985 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:17,507 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2019-06-26 10:55:17,551 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2019-06-26 10:55:17,556 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 465
+INFO 2019-06-26 10:55:19,724 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:19,728 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:19,749 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:19,789 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2019-06-26 10:55:19,821 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2019-06-26 10:55:19,826 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1149
+INFO 2019-06-26 10:55:39,224 basehttp 124 "OPTIONS /meiduo_admin/skus/images/ HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:39,272 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 201 109
+INFO 2019-06-26 10:55:39,318 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:39,345 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1149
+INFO 2019-06-26 10:55:43,507 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:43,524 basehttp 124 "GET /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 165
+INFO 2019-06-26 10:55:47,797 basehttp 124 "OPTIONS /meiduo_admin/skus/images/44/ HTTP/1.1" 200 0
+INFO 2019-06-26 10:55:47,821 basehttp 124 "GET /meiduo_admin/skus/images/44/ HTTP/1.1" 200 109
+INFO 2019-06-26 10:55:54,697 basehttp 124 "PUT /meiduo_admin/skus/images/44/ HTTP/1.1" 200 109
+INFO 2019-06-26 10:55:54,764 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1149
+INFO 2019-06-26 10:55:58,749 basehttp 124 "GET /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 165
+INFO 2019-06-26 10:56:02,854 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2019-06-26 10:56:02,881 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1149
+INFO 2019-06-26 10:56:02,903 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2019-06-26 10:56:07,163 basehttp 124 "GET /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 165
+INFO 2019-06-26 10:56:09,944 basehttp 124 "GET /meiduo_admin/skus/images/44/ HTTP/1.1" 200 109
+INFO 2019-06-26 10:56:22,144 basehttp 124 "PUT /meiduo_admin/skus/images/44/ HTTP/1.1" 200 109
+INFO 2019-06-26 10:56:22,200 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1149
+INFO 2019-06-26 10:56:26,676 basehttp 124 "GET /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 165
+INFO 2019-06-26 10:56:28,473 basehttp 124 "GET /meiduo_admin/skus/images/44/ HTTP/1.1" 200 109
+INFO 2019-06-26 10:56:36,355 basehttp 124 "PUT /meiduo_admin/skus/images/44/ HTTP/1.1" 200 109
+INFO 2019-06-26 10:56:36,405 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1149
+INFO 2019-06-26 10:56:41,078 basehttp 124 "GET /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 165
+INFO 2019-06-26 10:56:44,134 basehttp 124 "DELETE /meiduo_admin/skus/images/44/ HTTP/1.1" 204 0
+INFO 2019-06-26 10:56:44,159 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1149
+INFO 2019-06-26 10:56:48,355 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=4&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-06-26 10:56:48,373 basehttp 124 "GET /meiduo_admin/skus/images/?page=4&pagesize=10 HTTP/1.1" 200 1165
+INFO 2019-06-26 10:56:50,285 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-06-26 10:56:50,328 base 152 Not Found: /meiduo_admin/orders/
+WARNING 2019-06-26 10:56:50,330 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 14317

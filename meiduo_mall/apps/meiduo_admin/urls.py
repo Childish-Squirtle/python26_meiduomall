@@ -12,6 +12,9 @@ from meiduo_admin.views.sku_views import *
 from meiduo_admin.views.spu_views import *
 from meiduo_admin.views.spec_views import *
 from meiduo_admin.views.option_views import *
+from meiduo_admin.views.channel_views import *
+from meiduo_admin.views.brand_views import *
+from meiduo_admin.views.image_views import *
 
 
 
@@ -64,6 +67,31 @@ urlpatterns = [
     # 获得规格所有的信息
     url(r'^goods/specs/simple/$', SpecSimpleView.as_view()),
 
+    #获得频道的所有数据
+    url(r'^goods/channels/$', ChannelViewSet.as_view({'get':'list', 'post':'create'})),
+    #获得单一频道数据
+    url(r'^goods/channels/(?P<pk>\d+)/$', ChannelViewSet.as_view({'get':'retrieve',
+                                                                  'put':'update',
+                                                                  'delete':'destroy'})),
+    #获得频道所有分组数据
+    url(r'^goods/channel_types/$', ChannelViewSet.as_view({'get':'channel_types'})),
+    #获得频道可选的一级分类
+    url(r'^goods/categories/$', ChannelViewSet.as_view({'get':'categories'})),
+
+    #获得品牌所有信息，数据新建
+    url(r'^goods/brands/$', BrandViewSet.as_view({'get': 'list', 'post':'create'})),
+    #删除对象
+    url(r'^goods/brands/(?P<pk>\d+)/$', BrandViewSet.as_view({'delete': 'destroy',
+                                                              'get':'retrieve',
+                                                              'put':'update'})),
+    #获得图片所有数据
+    url(r'^skus/images/$', ImageViewSet.as_view({'get':'list', 'post':'create'})),
+    #单个图片操作
+    url(r'^skus/images/(?P<pk>\d+)/$', ImageViewSet.as_view({'get':'retrieve',
+                                                             'put':'update',
+                                                             'delete':'destroy'})),
+    #获得新建图片可选sku商品
+    url(r'^skus/simple/$', ImageViewSet.as_view({'get':'simple'})),
 
 ]
 

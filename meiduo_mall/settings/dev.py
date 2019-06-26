@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import datetime
 import os  # 操作系统ubuntu模块
 import sys  # python模块
+from datetime import timedelta
 
 # sys.path#导入包的路径
 
@@ -50,8 +51,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'corsheaders',
     'rest_framework',
+
 
     # 完整导包路径
     # 'meiduo_mall.apps.users.apps.UsersConfig',
@@ -343,8 +346,20 @@ REST_FRAMEWORK = {
     ),
 }
 
+# 有效期
+# 时间点：2019-7-7 0：0：0
+# 时间段：30天  --> 当前的时间点 + 30天 = 有效期时间点
+
+# python
+# datetime：时间点对象
+# timedelta：时间段对象
+# datetime(2019, 1,1, 12,14,45)
+# timedelta(days=20, seconds=50)
 
 JWT_AUTH = {
-    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1), # 有效期为1天
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'meiduo_admin.utils.jwt_response.jwt_response_token_hander',
 }
+
+
+FDFS_CONFIG_PATH = os.path.join(BASE_DIR, 'client.conf')
