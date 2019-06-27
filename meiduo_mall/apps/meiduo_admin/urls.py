@@ -15,6 +15,8 @@ from meiduo_admin.views.option_views import *
 from meiduo_admin.views.channel_views import *
 from meiduo_admin.views.brand_views import *
 from meiduo_admin.views.image_views import *
+from meiduo_admin.views.order_views import *
+
 
 
 
@@ -92,6 +94,14 @@ urlpatterns = [
                                                              'delete':'destroy'})),
     #获得新建图片可选sku商品
     url(r'^skus/simple/$', ImageViewSet.as_view({'get':'simple'})),
+
+    #获得订单所有数据
+    url(r'^orders/$', OrderViewSet.as_view({'get':'list'})),
+    #获得单个订单数据
+    url(r'^orders/(?P<pk>\d+)/$', OrderViewSet.as_view({'get':'retrieve'})),
+    #修改订单状态
+    url(r'^orders/(?P<pk>\d+)/status/$', OrderViewSet.as_view({"put":"partial_update"})),
+
 
 ]
 
